@@ -4,15 +4,23 @@ import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contacts from "./pages/Contacts";
+import ProjectPage from "./pages/ptojectPage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+      <Router>
       <Navbar />
-      {/* <Home/> */}
-      <Projects/>
-      {/* <Contacts/> */}
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/contacts" element={<Contacts/>}/>
+        <Route path="/projectPage" element={<ProjectPage/>}/>
+      </Routes>          
       <Footer/>
+      </Router>
+   
     </div>
   );
 }

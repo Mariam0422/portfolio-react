@@ -12,6 +12,7 @@ import project04Big from './../img/projects/04-big.jpg';
 
 export const projects = [
     { 
+        id: 1,
         title: 'Gaming streaming portal',
         skills: 'React, Firebase, Antd',
         img: project01,
@@ -19,6 +20,7 @@ export const projects = [
         gitHubLink: "htttps://github.com"
     },
     { 
+        id: 2,
         title: 'Gaming streaming portal',
         skills: 'React, Firebase, Antd',
         img: project02,
@@ -26,6 +28,7 @@ export const projects = [
         gitHubLink: "htttps://github.com"
     },
     { 
+        id: 3,
         title: 'Gaming streaming portal',
         skills: 'React, Firebase, Antd',
         img: project03,
@@ -33,6 +36,7 @@ export const projects = [
         gitHubLink: "htttps://github.com"
     },
     { 
+        id: 4,
         title: 'Gaming streaming portal',
         skills: 'React, Firebase, Antd',
         img: project04,
