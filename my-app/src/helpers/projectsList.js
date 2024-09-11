@@ -13,33 +13,34 @@ import project04Big from './../img/projects/04-big.jpg';
 export const projects = [
     { 
         id: 1,
-        title: 'Gaming streaming portal',
-        skills: 'React, Firebase, Antd',
+        title: 'Weather App',
+        skills: 'React,  Antd',
         img: project01,
         imgBig: project01Big,
-        gitHubLink: "htttps://github.com"
+        gitHubLink: "https://github.com/Mariam0422/WeatherReact"
     },
     { 
         id: 2,
-        title: 'Gaming streaming portal',
+        title: 'Jira',
         skills: 'React, Firebase, Antd',
         img: project02,
         imgBig: project02Big,
-        gitHubLink: "htttps://github.com"
+        gitHubLink: "https://github.com/Mariam0422/Jira"
     },
     { 
         id: 3,
-        title: 'Gaming streaming portal',
-        skills: 'React, Firebase, Antd',
+        title: 'Guess the weather',
+        skills: 'React',
         img: project03,
         imgBig: project03Big,
-        gitHubLink: "htttps://github.com"
+        gitHubLink: "https://github.com/Mariam0422/GuessWeatherGame",
     },
     { 
         id: 4,
-        title: 'Gaming streaming portal',
-        skills: 'React, Firebase, Antd',
+        title: 'Movie App',
+        skills: 'JavaScript, Less',
         img: project04,
         imgBig: project04Big,   
+        gitHubLink: "https://github.com/Mariam0422/MovieApp"
     },
 ]
