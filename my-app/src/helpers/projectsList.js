@@ -40,7 +40,6 @@ export const projects = [
         title: 'Gaming streaming portal',
         skills: 'React, Firebase, Antd',
         img: project04,
-        imgBig: project04Big,
-        gitHubLink: "htttps://github.com"
+        imgBig: project04Big,   
     },
 ]
