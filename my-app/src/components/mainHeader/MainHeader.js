@@ -1,3 +1,4 @@
+
 import './style.css';
 
 const MainHeader = () => {
@@ -11,7 +12,7 @@ const MainHeader = () => {
             <div className="header__text">
                 <p>with passion for learning and creating.</p>
             </div>
-            <a href="#!" className="btn">Download CV</a>
+            <a href="/pdf/CV.pdf" download="CV.pdf" className="btn">Download CV</a>
         </div>
     </header> 
     );
