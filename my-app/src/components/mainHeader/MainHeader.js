@@ -11,7 +11,7 @@ const MainHeader = () => {
             </h1>
             <div className="header__text">
                 <p>with passion for learning and creating.</p>
-            </div>
+            </div>        
             <a href="/pdf/CV.pdf" download="CV.pdf" className="btn">Download CV</a>
         </div>
     </header> 

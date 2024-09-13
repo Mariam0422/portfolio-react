@@ -1,6 +1,5 @@
 import facebook from "../../img/icons/facebook.svg";
 import instagram from "../../img/icons/instagram.svg";
-import linkedIn from "../../img/icons/linkedIn.svg";
 import gitHub from "../../img/icons/gitHub.svg";
 import "./style.css";
 
@@ -15,10 +14,7 @@ const Footer = () => {
             </li>
             <li className="social__item">
               <a href="#!"> <img src={facebook} alt="Link" /> </a>
-            </li>
-            <li className="social__item">
-              <a href="#!"><img src={linkedIn} alt="Link" /></a>
-            </li>
+            </li>           
             <li className="social__item">
               <a href="#!"><img src={gitHub} alt="Link" /> </a>
             </li>

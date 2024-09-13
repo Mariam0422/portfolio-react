@@ -13,6 +13,7 @@ const Home = () => {
                 JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, GitHub,
                 BootStrap, Less, CorelDraw, PS
               </p>
+              <a href="/pdf/certificateJS.pdf" download="certificateJS.pdf" className="btn">Download Cetificates</a>
             </li>
           
           </ul>

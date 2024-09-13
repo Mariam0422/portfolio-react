@@ -195,9 +195,6 @@ body {
 	text-align: center;
 }
 
-.content-list a {
-	color: var(--accent);
-}
 
 .content-list__item {
 	font-size: 18px;
@@ -208,11 +205,10 @@ body {
 	margin-top: 0.5em;
 }
 
-/* Footer */
+
 
 
 @media (max-width: 620px) {
-	/* Header  */
 
 	.header {
 		min-height: unset;
