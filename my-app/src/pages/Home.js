@@ -10,7 +10,7 @@ const Home = () => {
             <li className="content-list__item">
               <h2 className="title-2">Frontend</h2>
               <p>
-                JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, GitHub,
+                JavaScript, ReactJS, Redux, HTML, CSS, GitHub,
                 BootStrap, Less, CorelDraw, PS
               </p>
               <a href="/pdf/certificateJS.pdf" download="certificateJS.pdf" className="btn">Download Cetificates</a>
